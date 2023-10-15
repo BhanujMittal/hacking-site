@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+#allContent {
+    background: url('https://img.freepik.com/premium-photo/hacker-silhouette-dark-green-binary-background-hacker-silhouette-binary-codes-toned-picture-silhouette-hacker-hoodie-hacking-malware-concept_256259-2363.jpg?w=1060');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: -1;
+}
+
+.hack-section {
+    width: 300px;
+    height: 95%;
+    filter: drop-shadow(1px 1px 10px black);
+    background-color: black;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 0.5rem;
+    color: green;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+#fill-section {
+    width: 30vw;
+}
+
+#fill-section form{
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hackInput {
+    width: 96%;
+    border-radius: 9px;
+}
+
+.buttons {
+    bottom: 1rem;
+    left: 0%;
+    width: 100%;
+}
+
+p {
+    font-size: 1rem;
+    padding: .3rem 0px;
+    text-align: left;
+}
+
+p:first-child {
+    font-size: 2.3rem;
+    padding-bottom: .5rem;
+}
+
+hr {
+    border-color: green;
+}
+
+#hack-section-data {
+    font-size: 2.3rem;
+    text-align: center;
+}
